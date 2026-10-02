@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Omar Adel Hanfy | Personal Webpage</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+</head>
+<body>
+  <header id="home">
+    <h1>Welcome to My Small Personal Webpage</h1>
+    <p>My ID:250101299</p>
+
+    <nav aria-label="Main navigation">
+      <a href="#home">Home</a> |
+      <a href="#about">About</a> |
+      <a href="#interests">Interests</a> |
+      <a href="#schedule">Weekly Schedule</a> |
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hello!!! My name is Omar Adel Hanfy I am learning web programming and building my first personal webpage using HTML.</p>
+      <p>This page uses basic HTML elements, images, links, lists, and a weekly class schedule.</p>
+
+      <h3>Examlple that shows structure of HTML Codes </h3>
+      <img src="web-programming.svg" alt="a laptop used for web programming" width="640" height="360">
+      <p>The image above represents my interest in learning how websites are created</p>
+    </section>
+
+    <section id="interests">
+      <h2>My Interests</h2>
+      <h3>Learning Goals</h3>
+      <ol>
+        <li>Understanding HTML structure.</li>
+        <li>Build useful webpages.</li>
+        <li>Learn CSS and JavaScript in the future.</li>
+      </ol>
+
+      <h3>Things I Enjoy</h3>
+      <ul>
+        <li>Ai</li>
+        <li>Web Development</li>
+        <li>Problem Solving</li>
+      </ul>
+
+      <h3>Responsive Image</h3>
+      <picture>
+        <source media="(min-width: 900px)" srcset="web-programming-large.svg">
+        <source media="(min-width: 500px)" srcset="web-programming-medium.svg">
+        <img src="web-programming-small.svg" alt="Responsive illustration of a student learning web programming" width="320" height="180">
+      </picture>
+      <p>This picture uses the <code>picture</code> element to select an image for different screen sizes.</p>
+    </section>
+
+    <section id="schedule">
+      <h2>My Weekly Class Schedule</h2>
+      <table>
+        <caption>Weekly Class Schedule</caption>
+        <thead>
+          <tr>
+            <th scope="col" rowspan="2">Time</th>
+            <th scope="col" colspan="5">Day</th>
+          </tr>
+          <tr>
+            <th scope="col">Sunday</th>
+            <th scope="col">Monday</th>
+            <th scope="col">Tuesday</th>
+            <th scope="col">Wednesday</th>
+            <th scope="col">Thursday</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">09:00 - 10:40</th>
+            <td>-</td>
+            <td>Operating Systems I - CET212<br>Lab B5<br>A128<br>LAB</td>
+            <td>-</td>
+            <td>Probability &amp; Statistics - GEN211<br>Lecture E<br>A114<br>LEC</td>
+            <td>Probability &amp; Statistics - GEN211<br>Tut A-1<br>A136<br>Tutorials</td>
+          </tr>
+          <tr>
+            <th scope="row">09:00 - 11:40</th>
+            <td>Data Structures &amp; Algorithms - CET211<br>Lecture A2<br>A141<br>LEC</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <th scope="row">09:50 - 11:30</th>
+            <td>-</td>
+            <td>-</td>
+            <td>Web Programming - CET214<br>05<br>A128<br>LAB</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <th scope="row">10:50 - 11:40</th>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>Probability &amp; Statistics - GEN211<br>Lab A1-1<br>A136<br>LAB</td>
+          </tr>
+          <tr>
+            <th scope="row">11:40 - 14:20</th>
+            <td>-</td>
+            <td>-</td>
+            <td>Data Structures &amp; Algorithms - CET211<br>Lab A4<br>A128<br>LAB</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <th scope="row">11:40 - 13:30</th>
+            <td>-</td>
+            <td>Operating Systems I - CET212<br>Lecture B2<br>A210<br>LEC</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <th scope="row">12:40 - 14:20</th>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>Data Cleansing and Migration - CET341<br>Lecture A<br>A140<br>LEC</td>
+          </tr>
+          <tr>
+            <th scope="row">14:20 - 16:00</th>
+            <td>Web Programming - CET214<br>03<br>A241<br>LEC</td>
+            <td>Data Cleansing and Migration - CET341<br>Lab A2<br>A132<br>LAB</td>
+            <td>-</td>
+            <td>Innovation &amp; Entrepreneurship - HUM131<br>Lecture B<br>A141<br>LEC</td>
+            <td>-</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>You can find my Projects on <a href="https://github.com/omaradel73" target="_blank" rel="noopener">GitHub</a>.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy;Omar Adel Hanfy</p>
+  </footer>
+</body>
+</html>
